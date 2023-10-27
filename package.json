@@ -1,6 +1,6 @@
 {
     "name": "directus-hook-library",
-    "version": "0.0.0-alpha",
+    "version": "0.0.0",
     "description": "A collection of customizable hooks for Directus",
     "license": "GPL-3.0",
     "author": "formfcw",
