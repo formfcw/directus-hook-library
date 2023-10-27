@@ -1,4 +1,4 @@
-// This overwrites the values vor `settings` in the Project Settings when starting Directus
+// This overwrites the values for `settings` in the Project Settings when starting Directus
 
 import type { HookExtensionContext } from "@directus/extensions";
 import type { RegisterFunctions } from "./types";
