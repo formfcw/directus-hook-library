@@ -11,7 +11,7 @@
         "noImplicitReturns": true,
         "noUnusedLocals": true,
         "noUncheckedIndexedAccess": true,
-        "noUnusedParameters": true,
+        "noUnusedParameters": false,
         "alwaysStrict": true,
         "strictNullChecks": true,
         "strictFunctionTypes": true,
@@ -22,7 +22,9 @@
         "forceConsistentCasingInFileNames": true,
         "allowSyntheticDefaultImports": true,
         "isolatedModules": true,
-        "rootDir": "./"
+        "rootDir": "./",
+        "outDir": "dist",
+        "declaration": true
     },
     "include": ["./**/*.ts"]
 }

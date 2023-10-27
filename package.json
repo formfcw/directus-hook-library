@@ -1,10 +1,11 @@
 {
     "name": "directus-hook-library",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A collection of customizable hooks for Directus",
     "license": "GPL-3.0",
     "author": "formfcw",
-    "main": "index.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/formfcw/directus-hook-library.git"
@@ -27,7 +28,8 @@
     },
     "homepage": "https://github.com/formfcw/directus-hook-library#readme",
     "scripts": {
-        "publish": "npm publish"
+        "build-and-publish": "tsc && npm publish",
+        "build": "tsc"
     },
     "devDependencies": {
         "@directus/errors": "^0.2.0",

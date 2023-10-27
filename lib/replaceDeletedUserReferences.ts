@@ -13,7 +13,7 @@ export default function (
         const usersToDelete = input;
         const {
             accountability: { user },
-        } = context;
+        } = context as any;
         const filesService = new FilesService({
             ...context,
             schema: await getSchema(),
