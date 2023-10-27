@@ -1,6 +1,6 @@
 {
     "name": "directus-hook-library",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "description": "A collection of customizable hooks for Directus",
     "license": "GPL-3.0",
     "author": "formfcw",
@@ -31,7 +31,7 @@
         "build-and-publish": "tsc && npm publish",
         "build": "tsc"
     },
-    "devDependencies": {
+    "dependencies": {
         "@directus/errors": "^0.2.0",
         "@directus/extensions": "^0.1.0",
         "@directus/types": "^11.0.1",
