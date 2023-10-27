@@ -1,0 +1,39 @@
+{
+    "name": "directus-hook-library",
+    "version": "0.0.0-alpha",
+    "description": "A collection of customizable hooks for Directus",
+    "license": "GPL-3.0",
+    "author": "formfcw",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/formfcw/directus-hook-library.git"
+    },
+    "keywords": [
+        "directus",
+        "directus-extension",
+        "hook",
+        "library",
+        "project-settings",
+        "env-settings",
+        "cascade",
+        "M2O",
+        "delete-unused",
+        "reset-hidden-fields",
+        "replace-deleted-user-references"
+    ],
+    "bugs": {
+        "url": "https://github.com/formfcw/directus-hook-library/issues"
+    },
+    "homepage": "https://github.com/formfcw/directus-hook-library#readme",
+    "scripts": {
+        "publish": "npm publish"
+    },
+    "devDependencies": {
+        "@directus/errors": "^0.2.0",
+        "@directus/extensions": "^0.1.0",
+        "@directus/types": "^11.0.1",
+        "@types/node": "^20.8.9",
+        "typescript": "^5.2.2"
+    }
+}
