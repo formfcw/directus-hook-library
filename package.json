@@ -3,7 +3,10 @@
     "version": "1.0.2",
     "description": "A collection of customizable hooks for Directus",
     "license": "GPL-3.0",
-    "author": "formfcw",
+    "author": {
+        "email": "dev@formfcw.com",
+        "name": "formfcw"
+    },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "repository": {
